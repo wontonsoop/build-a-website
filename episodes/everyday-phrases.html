@@ -8,12 +8,17 @@
 </head>
 <body>
   <!-- Include the tag for introductory content -->
+  
 
     <!-- Display sysk logo nested in an anchor tag to link to index.html -->
+    <a href="index.html"><img src="/images/sysk-logo.webp" alt="image of the sysk logo"></a>
   
     <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
+    <nav id="#nav" role="navigation">
+      <li><a href="/about.html">About</a></li>
+       <li><a href="/episodes/episodes.html">Episodes</a></li>
+     </nav>
+
 
 
 
@@ -21,55 +26,66 @@
 
 
     <!-- Include a tag that groups the information about this particular podcast -->
+      <section id="everyday-phrases">
 
-      <!-- Display image relevant to topic -->
+        <!-- Display image relevant to topic -->
+        <img src="/images/everyday-phrases.jpeg" alt="image of scattered words">
 
-      <!-- Main heading for the page -->
-      Interesting Origins of Everday Phrases
-      
-      December 15, 2022
-      49 min
-
-      We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!
-
-      <!-- Link to external url: https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/interesting-origins-of-everyday-phrases-106017958/   -->
-      Click here to play episode on iHeart
+        <!-- Main heading for the page -->
+        <main id="#main" role="main">
+        <h2>Interesting Origins of Everday Phrases</h2>
+        
+        <p>December 15, 2022
+        49 min
+        </p>
+        <p>We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!</p>
+      </main>
+        <!-- Link to external url: https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/interesting-origins-of-everyday-phrases-106017958/   -->
+      <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/interesting-origins-of-everyday-phrases-106017958/"> Click here to play episode on iHeart</a>
+      </section>
 
 
     <!-- Include a tag that groups the other two podcasts -->  
-
+    <section id="other-podcasts">
       <!-- Section heading -->
-      You might also like...
+      <h2>You might also like...</h2>
 
       <!-- Include a tag for independent, self-contained content content -->
         
         <!-- Section sub-heading -->
-        The History of Fake Towns
+        <article>
+        <h3>The History of Fake Towns</h3>
 
         <!-- Display image relevant to topic -->
+        <img src="/images/fake-towns.jpeg" alt="image of a woman standing by a fake street sign">
 
-        There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.
+        <p>There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.</p>
         
         <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
-
+        <a href="/episodes/fake-towns.html">Learn more</a>
+       </article>
 
       <!-- Include a tag for independent, self-contained content content -->
         
         <!-- Section sub-heading -->
-        Doppelgängers: Hey you, you're me!
+        <article>
+        <h3>Doppelgängers: Hey you, you're me!</h3>
 
         <!-- Display image relevant to topic -->
+        <img src="/images/doppelgangers.jpeg" alt="image of two mirroed identical shadows">
         
-        Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!
+        <p>Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!</p>
 
         <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
-     
-
+        <a href="/episodes/doppelgangers.html">Learn more</a>
+       </article>
+</section>
         
   <!-- Include the tag for footer content -->
-  &copy; SYSK 2023
+  <footer role="contentinfo">
+    <p><small>&copy; SYSK 2023</small></p>
+  </footer>
+  
   
    
 </body>
