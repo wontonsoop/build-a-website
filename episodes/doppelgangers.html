@@ -10,68 +10,80 @@
   <!-- Include the tag for introductory content -->
 
     <!-- Display sysk logo nested in an anchor tag to link to index.html -->
+    <a href="index.html"><img src="/images/sysk-logo.webp" alt="image of the sysk logo"></a>
   
     <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
+    <nav id="#nav" role="navigation">
+      <li><a href="#about">About</a></li>
+       <li><a href="#episodes">Episodes</a></li>
+     </nav>
 
 
     
   <!-- Add an element that represents the main content of the page --> 
+  <main id="#main" role="main">
 
        
     <!-- Include a tag that groups the information about this particular podcast -->
 
       <!-- Display image relevant to topic -->
+      <img src="/images/doppelgangers.jpeg" alt="image of two identical shadows facing each other">
 
       <!-- Main heading for the page --> 
-      Doppelgängers: Hey you, you're me!
+      <h1>Doppelgängers: Hey you, you're me!</h1>
 
-      October 11, 2022
-      47 min
-
-      Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!
+      
+     <p> >October 11, 2022
+      47 mins
+     </p>
+      <p>Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!</p>
 
       <!-- Link to external url: https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/doppelgangers-hey-you-youre-me-103115512/  -->
-      Click here to play episode on iHeart
+      <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/doppelgangers-hey-you-youre-me-103115512/">Click here to play episode on iHeart</a>
 
 
 
     <!-- Include a tag that groups the other two podcasts -->  
 
       <!-- Section heading --> 
-      You might also like...
+      <h1>You might also like...</h1>
 
       
       <!-- Include a tag for independent, self-contained content content -->
         
         <!-- Section sub-heading -->
-        Interesting Origins of Everday phrases
+
+      <article>
+        <h2>Interesting Origins of Everyday phrases</h2>
 
         <!-- Display image relevant to topic -->
 
-        We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!
-        
+        <p>We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!</p>
+        </article>
         <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
+       
+        <a href="/episodes/everyday-phrases.html">Learn more</a>
       
 
       <!-- Include a tag for independent, self-contained content content -->
         
         <!-- Section sub-heading -->
-        The History of Fake Towns
+       <h2>The History of Fake Towns</h2>
         
         <!-- Display image relevant to topic -->
+        <img src="/images/fake-towns.jpeg" alt="image of a fake town">
         
-        There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.
+        <p>There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.</p>
         
         <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
+        <a href="/episodes/fake-towns.html">Learn more</a>
       
 
         
   <!-- Include the tag for footer content -->
-  &copy; SYSK 2023
+  <footer role="contentinfo">
+    <p><small>&copy; SYSK 2023</small></p>
+  </footer>
   
   
 </body>
